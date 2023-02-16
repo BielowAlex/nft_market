@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230216165623"/>
+  <link rel="stylesheet" href="./res/styles/style.min.css?_v=20230216165623">
+  <title>NFT Marketplace</title>
+</head>
+<body>
+<div class="wrap">
+    
+    <header class="header">
+    <div class="container header__container">
+            <div class="header__logo">
+                <a href="/" class="header__logo-link">
+                    <picture>
+                        <source srcset="./res/images/logo_mobile.svg" media="(max-width:575px)">
+                        <img class="header__logo-img" alt="nft marketplace"  src="./res/images/logo.svg"/>
+                    </picture>
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Explore</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Creators</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Community</a>
+                    </li>
+                </ul>
+                <div class="header__nav-wallet">
+                    <button class="header__nav-wallet--btn gold">Connect Wallet</button>
+                </div>
+            </nav>
+            <div class="header__burger">
+                <div class="header__burger-btn">
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                </div>
+            </div>
+    </div>
+</header>
+    <main class="content">
+        <article class="hero">
+    <div class="container">
+        <div class="hero__back">
+            <div class="hero__back-light"></div>
+            <div class="hero__back-light--rainbow">
+                <svg width="1600" height="1557" viewBox="0 0 1600 1557" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_5_743)">
+                        <rect width="339.764" height="172.168" transform="matrix(-0.80015 -0.5998 0.701803 -0.712371 1118.25 1036.28)" fill="#E7B226" fill-opacity="0.83"/>
+                    </g>
+                    <g filter="url(#filter1_f_5_743)">
+                        <rect width="339.764" height="172.168" transform="matrix(-0.80015 -0.5998 0.701803 -0.712371 1152.48 776.587)" fill="#D53D5C"/>
+                    </g>
+                    <g filter="url(#filter2_f_5_743)">
+                        <rect width="340.425" height="187.702" transform="matrix(-0.80015 -0.5998 0.701803 -0.712371 901.358 1106.16)" fill="#60E7CE" fill-opacity="0.67"/>
+                    </g>
+                    <g filter="url(#filter3_f_5_743)">
+                        <ellipse cx="121.101" cy="115.74" rx="121.101" ry="115.74" transform="matrix(0.996634 -0.0819736 0.0900245 0.995939 629.721 821.575)" fill="#BB00AB"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_f_5_743" x="396.384" y="259.844" width="1292.69" height="1226.44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="225" result="effect1_foregroundBlur_5_743"/>
+                        </filter>
+                        <filter id="filter1_f_5_743" x="430.62" y="0.149048" width="1292.69" height="1226.44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="225" result="effect1_foregroundBlur_5_743"/>
+                        </filter>
+                        <filter id="filter2_f_5_743" x="178.966" y="318.26" width="1304.12" height="1237.9" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="225" result="effect1_foregroundBlur_5_743"/>
+                        </filter>
+                        <filter id="filter3_f_5_743" x="289.684" y="461.214" width="942.299" height="931.407" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_5_743"/>
+                        </filter>
+                    </defs>
+                </svg>
+
+            </div>
+        </div>
+        <div class="hero__head">
+            <section class="hero__about">
+                <h1 class="hero__title">
+                    Explore, Buy and Sell <span class="gold">the Best NFTs!</span>
+                </h1>
+                <div class="hero__buttons">
+                    <button class="hero__btn">Explore</button>
+                    <button class="hero__btn">Create</button>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__info-el">
+                        <span class="hero__info-el--count">32k+</span>
+                        <span class="hero__info-el--title subtext">Artworks</span>
+                    </div>
+                    <div class="hero__info-el">
+                        <span class="hero__info-el--count">20k+</span>
+                        <span class="hero__info-el--title subtext">Auctions</span>
+                    </div>
+                    <div class="hero__info-el">
+                        <span class="hero__info-el--count">12k+</span>
+                        <span class="hero__info-el--title subtext">Creators</span>
+                    </div>
+                </div>
+            </section>
+            <section class="hero__promo">
+                <div class="hero__promo-back">
+                    <img class="hero__promo-back--img" alt="nft" src="./res/images/promo.jpg">
+                </div>
+                <div class="hero__card">
+                    <div class="hero__card-head">
+                        <div class="hero__card-info">
+                            <h3 class="hero__card-info--title">Current Bid</h3>
+                            <span class="hero__card-info--price">0.99 ETH</span>
+                        </div>
+                        <div class="hero__card-info">
+                            <h3 class="hero__card-info--title">Ends in</h3>
+                            <span class="hero__card-info--time">25 hrs</span>
+                        </div>
+                    </div>
+                    <div class="hero__card-bottom">
+                        <div class="hero__card-artist">
+                            <h3 class="hero__card-artist--title">Artist</h3>
+                            <a href="#" class="hero__card-artist--link subtext">@wzard</a>
+                        </div>
+                        <button class="hero__card-btn">Start Bid</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="exchanges">
+  <ul class="exchanges__list">
+    <li class="exchanges__item">
+      <a href="#" class="exchanges__link">
+        <picture>
+          <source srcset="./res/images/exchanges/coinbase-mobile.svg" media="(max-width:586px)">
+          <img src="./res/images/exchanges/coinbase.svg" alt="coinbase" class="exchanges__logo">
+        </picture>
+      </a>
+    </li>
+    <li class="exchanges__item">
+      <a href="#" class="exchanges__link">
+        <picture>
+          <source srcset="./res/images/exchanges/blockchain-mobile.svg" media="(max-width:586px)">
+          <img src="./res/images/exchanges/blockchain.svg" alt="blockchain" class="exchanges__logo">
+        </picture>
+      </a>
+    </li>
+    <li class="exchanges__item">
+      <a href="#" class="exchanges__link">
+        <picture>
+          <source srcset="./res/images/exchanges/binance-mobile.svg" media="(max-width:586px)">
+          <img src="./res/images/exchanges/binance.svg" alt="binance" class="exchanges__logo">
+        </picture>
+      </a>
+    </li>
+    <li class="exchanges__item">
+      <a href="#" class="exchanges__link">
+        <picture>
+          <source srcset="./res/images/exchanges/bitmex-mobile.svg" media="(max-width:586px)">
+          <img src="./res/images/exchanges/bitmex.svg" alt="bitmex" class="exchanges__logo">
+        </picture>
+      </a>
+    </li>
+  </ul>
+</section>
+    </div>
+</article>
+        <article class="auctions ">
+    <div class="auctions__container container">
+        <div class="auctions__back">
+            <div class="auctions__back-light"></div>
+        </div>
+        <div class="title">
+  <div class="title__circle"></div>
+  <h2 class="title__text">Live Auctions</h2>
+</div>
+        <section class="auctions__slider swiper-container">
+    <div class="auctions__slider-buttons">
+        <button class="auctions__slider-btn _auctions__slider-btn--prev">
+            <img src="./res/images/auction/array_right.svg" alt="swipe left">
+        </button>
+        <button class="auctions__slider-btn _auctions__slider-btn--next">
+            <img src="./res/images/auction/array_right.svg" alt="swipe right">
+        </button>
+    </div>
+    <ul class="auctions__slider-list swiper-wrapper">
+        <li class="auctions__slide swiper-slide">
+            <div class="auctions__slide-poster">
+                <img class="auctions__slide-img" src="./res/images/auction/auction1.jpg" alt="poster">
+                <div class="auctions__slide-time">03:18:24</div>
+            </div>
+            <div class="auctions__slide-desc">
+                <div class="auctions__slide-info">
+                    <div class="auctions__slide-artist">
+                        <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                             class="auctions__slide-artist--img">
+                        <div class="auctions__slide-artist--info">
+                            <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                            <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                        </div>
+                    </div>
+                    <div class="auctions__slide-like">
+                        <button class="auctions__slide-like--btn">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                      fill="#76607A"/>
+                            </svg>
+                        </button>
+                        <span class="auctions__slide-like--count">92</span>
+                    </div>
+                </div>
+                <div class="auctions__slide-info">
+                    <span class="auctions__slide-info--title subtext">Current Bid</span>
+                    <span class="auctions__slide-info--price">4.89 ETH</span>
+                </div>
+                <button class="auctions__slide--btn">Place a bid</button>
+            </div>
+        </li>
+        <li class="auctions__slide swiper-slide">
+            <div class="auctions__slide-poster">
+                <img class="auctions__slide-img" src="./res/images/auction/auction2.jpg" alt="poster">
+                <div class="auctions__slide-time">03:18:24</div>
+            </div>
+            <div class="auctions__slide-desc">
+                <div class="auctions__slide-info">
+                    <div class="auctions__slide-artist">
+                        <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                             class="auctions__slide-artist--img">
+                        <div class="auctions__slide-artist--info">
+                            <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                            <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                        </div>
+                    </div>
+                    <div class="auctions__slide-like">
+                        <button class="auctions__slide-like--btn">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                      fill="#76607A"/>
+                            </svg>
+                        </button>
+                        <span class="auctions__slide-like--count">92</span>
+                    </div>
+                </div>
+                <div class="auctions__slide-info">
+                    <span class="auctions__slide-info--title subtext">Current Bid</span>
+                    <span class="auctions__slide-info--price">4.89 ETH</span>
+                </div>
+                <button class="auctions__slide--btn">Place a bid</button>
+            </div>
+        </li>
+        <li class="auctions__slide swiper-slide">
+            <div class="auctions__slide-poster">
+                <img class="auctions__slide-img" src="./res/images/auction/auction3.jpg" alt="poster">
+                <div class="auctions__slide-time">03:18:24</div>
+            </div>
+            <div class="auctions__slide-desc">
+                <div class="auctions__slide-info">
+                    <div class="auctions__slide-artist">
+                        <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                             class="auctions__slide-artist--img">
+                        <div class="auctions__slide-artist--info">
+                            <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                            <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                        </div>
+                    </div>
+                    <div class="auctions__slide-like">
+                        <button class="auctions__slide-like--btn">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                      fill="#76607A"/>
+                            </svg>
+                        </button>
+                        <span class="auctions__slide-like--count">92</span>
+                    </div>
+                </div>
+                <div class="auctions__slide-info">
+                    <span class="auctions__slide-info--title subtext">Current Bid</span>
+                    <span class="auctions__slide-info--price">4.89 ETH</span>
+                </div>
+                <button class="auctions__slide--btn">Place a bid</button>
+            </div>
+        </li>
+        <li class="auctions__slide swiper-slide">
+            <div class="auctions__slide-poster">
+                <img class="auctions__slide-img" src="./res/images/auction/auction1.jpg" alt="poster">
+                <div class="auctions__slide-time">03:18:24</div>
+            </div>
+            <div class="auctions__slide-desc">
+                <div class="auctions__slide-info">
+                    <div class="auctions__slide-artist">
+                        <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                             class="auctions__slide-artist--img">
+                        <div class="auctions__slide-artist--info">
+                            <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                            <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                        </div>
+                    </div>
+                    <div class="auctions__slide-like">
+                        <button class="auctions__slide-like--btn">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                      fill="#76607A"/>
+                            </svg>
+                        </button>
+                        <span class="auctions__slide-like--count">92</span>
+                    </div>
+                </div>
+                <div class="auctions__slide-info">
+                    <span class="auctions__slide-info--title subtext">Current Bid</span>
+                    <span class="auctions__slide-info--price">4.89 ETH</span>
+                </div>
+                <button class="auctions__slide--btn">Place a bid</button>
+            </div>
+        </li>
+        <li class="auctions__slide swiper-slide">
+            <div class="auctions__slide-poster">
+                <img class="auctions__slide-img" src="./res/images/auction/auction2.jpg" alt="poster">
+                <div class="auctions__slide-time">03:18:24</div>
+            </div>
+            <div class="auctions__slide-desc">
+                <div class="auctions__slide-info">
+                    <div class="auctions__slide-artist">
+                        <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                             class="auctions__slide-artist--img">
+                        <div class="auctions__slide-artist--info">
+                            <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                            <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                        </div>
+                    </div>
+                    <div class="auctions__slide-like">
+                        <button class="auctions__slide-like--btn">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                      fill="#76607A"/>
+                            </svg>
+                        </button>
+                        <span class="auctions__slide-like--count">92</span>
+                    </div>
+                </div>
+                <div class="auctions__slide-info">
+                    <span class="auctions__slide-info--title subtext">Current Bid</span>
+                    <span class="auctions__slide-info--price">4.89 ETH</span>
+                </div>
+                <button class="auctions__slide--btn">Place a bid</button>
+            </div>
+        </li>
+        <li class="auctions__slide swiper-slide">
+            <div class="auctions__slide-poster">
+                <img class="auctions__slide-img" src="./res/images/auction/auction3.jpg" alt="poster">
+                <div class="auctions__slide-time">03:18:24</div>
+            </div>
+            <div class="auctions__slide-desc">
+                <div class="auctions__slide-info">
+                    <div class="auctions__slide-artist">
+                        <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                             class="auctions__slide-artist--img">
+                        <div class="auctions__slide-artist--info">
+                            <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                            <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                        </div>
+                    </div>
+                    <div class="auctions__slide-like">
+                        <button class="auctions__slide-like--btn">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                      fill="#76607A"/>
+                            </svg>
+                        </button>
+                        <span class="auctions__slide-like--count">92</span>
+                    </div>
+                </div>
+                <div class="auctions__slide-info">
+                    <span class="auctions__slide-info--title subtext">Current Bid</span>
+                    <span class="auctions__slide-info--price">4.89 ETH</span>
+                </div>
+                <button class="auctions__slide--btn">Place a bid</button>
+            </div>
+        </li>
+    </ul>
+</section>
+
+        <ul class="auctions__list">
+    <li class="auctions__slide swiper-slide">
+        <div class="auctions__slide-poster">
+            <img class="auctions__slide-img" src="./res/images/auction/auction1.jpg" alt="poster">
+            <div class="auctions__slide-time">03:18:24</div>
+        </div>
+        <div class="auctions__slide-desc">
+            <div class="auctions__slide-info">
+                <div class="auctions__slide-artist">
+                    <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                         class="auctions__slide-artist--img">
+                    <div class="auctions__slide-artist--info">
+                        <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                        <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                    </div>
+                </div>
+                <div class="auctions__slide-like">
+                    <button class="auctions__slide-like--btn">
+                        <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                  fill="#76607A"/>
+                        </svg>
+                    </button>
+                    <span class="auctions__slide-like--count">92</span>
+                </div>
+            </div>
+            <div class="auctions__slide-info">
+                <span class="auctions__slide-info--title subtext">Current Bid</span>
+                <span class="auctions__slide-info--price">4.89 ETH</span>
+            </div>
+            <button class="auctions__slide--btn">Place a bid</button>
+        </div>
+    </li>
+    <li class="auctions__slide swiper-slide">
+        <div class="auctions__slide-poster">
+            <img class="auctions__slide-img" src="./res/images/auction/auction2.jpg" alt="poster">
+            <div class="auctions__slide-time">03:18:24</div>
+        </div>
+        <div class="auctions__slide-desc">
+            <div class="auctions__slide-info">
+                <div class="auctions__slide-artist">
+                    <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                         class="auctions__slide-artist--img">
+                    <div class="auctions__slide-artist--info">
+                        <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                        <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                    </div>
+                </div>
+                <div class="auctions__slide-like">
+                    <button class="auctions__slide-like--btn">
+                        <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                  fill="#76607A"/>
+                        </svg>
+                    </button>
+                    <span class="auctions__slide-like--count">92</span>
+                </div>
+            </div>
+            <div class="auctions__slide-info">
+                <span class="auctions__slide-info--title subtext">Current Bid</span>
+                <span class="auctions__slide-info--price">4.89 ETH</span>
+            </div>
+            <button class="auctions__slide--btn">Place a bid</button>
+        </div>
+    </li>
+    <li class="auctions__slide swiper-slide">
+        <div class="auctions__slide-poster">
+            <img class="auctions__slide-img" src="./res/images/auction/auction3.jpg" alt="poster">
+            <div class="auctions__slide-time">03:18:24</div>
+        </div>
+        <div class="auctions__slide-desc">
+            <div class="auctions__slide-info">
+                <div class="auctions__slide-artist">
+                    <img src="./res/images/auction/wzard_avatar.png" alt="avatar"
+                         class="auctions__slide-artist--img">
+                    <div class="auctions__slide-artist--info">
+                        <h4 class="auctions__slide-artist--art">Virtual Art</h4>
+                        <a href="#" class="auctions__slide-artist--link subtext">by @wzard</a>
+                    </div>
+                </div>
+                <div class="auctions__slide-like">
+                    <button class="auctions__slide-like--btn">
+                        <svg width="28" height="26" viewBox="0 0 28 26" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.3 0C17.864 0 15.526 1.134 14 2.926C12.474 1.134 10.136 0 7.7 0C3.388 0 0 3.388 0 7.7C0 12.992 4.76 17.304 11.97 23.856L14 25.69L16.03 23.842C23.24 17.304 28 12.992 28 7.7C28 3.388 24.612 0 20.3 0ZM14.14 21.77L14 21.91L13.86 21.77C7.196 15.736 2.8 11.746 2.8 7.7C2.8 4.9 4.9 2.8 7.7 2.8C9.856 2.8 11.956 4.186 12.698 6.104H15.316C16.044 4.186 18.144 2.8 20.3 2.8C23.1 2.8 25.2 4.9 25.2 7.7C25.2 11.746 20.804 15.736 14.14 21.77Z"
+                                  fill="#76607A"/>
+                        </svg>
+                    </button>
+                    <span class="auctions__slide-like--count">92</span>
+                </div>
+            </div>
+            <div class="auctions__slide-info">
+                <span class="auctions__slide-info--title subtext">Current Bid</span>
+                <span class="auctions__slide-info--price">4.89 ETH</span>
+            </div>
+            <button class="auctions__slide--btn">Place a bid</button>
+        </div>
+    </li>
+</ul>
+        <div class="view-all">
+            <a href="#" class="view-all__link">View All</a>
+        </div>
+    </div>
+</article>
+        <div class="explanation _dark-back">
+  <div class="explanation__back">
+    <div class="explanation__back-light"></div>
+  </div>
+    <div class="container">
+      <div class="explanation__content">
+        <div class="explanation__title">
+          <h2 class="explanation__title-text">How it works</h2>
+        </div>
+        <ul class="explanation__list">
+          <li class="explanation__item">
+            <div class="explanation__item-icon">
+              <picture>
+                <source srcset="./res/images/explanation/wallet-mob.svg" media="(max-width:769px)">
+                <img src="./res/images/explanation/wallet2.svg" alt="collection">
+              </picture>
+            </div>
+            <p class="explanation__item-desc gold">How it works</p>
+          </li>
+          <li class="explanation__item">
+            <div class="explanation__item-line"></div>
+            <div class="explanation__item-fig"></div>
+          </li>
+          <li class="explanation__item">
+            <div class="explanation__item-icon">
+              <picture>
+                <source srcset="./res/images/explanation/add-mob.svg" media="(max-width:769px)">
+                <img src="./res/images/explanation/add.svg" alt="collection">
+              </picture>
+            </div>
+            <p class="explanation__item-desc gold">Create your collection</p>
+          </li>
+          <li class="explanation__item">
+            <div class="explanation__item-line"></div>
+            <div class="explanation__item-fig"></div>
+          </li>
+          <li class="explanation__item">
+            <div class="explanation__item-icon">
+              <picture>
+                <source srcset="./res/images/explanation/sale-mob.svg" media="(max-width:769px)">
+                <img src="./res/images/explanation/sale.svg" alt="collection">
+              </picture>
+            </div>
+            <p class="explanation__item-desc gold">Add your NFTs</p>
+          </li>
+          <li class="explanation__item">
+            <div class="explanation__item-line"></div>
+            <div class="explanation__item-fig"></div>
+          </li>
+          <li class="explanation__item">
+            <div class="explanation__item-icon">
+              <picture>
+                <source srcset="./res/images/explanation/collection-mob.svg" media="(max-width:769px)">
+                <img src="./res/images/explanation/collection.svg" alt="collection">
+              </picture>
+            </div>
+            <p class="explanation__item-desc gold">List them for sale</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+        <article class="collections ">
+    <div class="container collections__container">
+        <div class="collections__back">
+            <div class="collections__back-light"></div>
+        </div>
+        <div class="title">
+  <div class="title__circle"></div>
+  <h2 class="title__text">Popular Collections</h2>
+</div>
+        <section class="collections__slider swiper-container">
+    <div class="collections__slider-btn">
+        <button class="collections__slider-btn--next">
+            <img src="./res/images/auction/array_right.svg" alt="swipe right">
+        </button>
+    </div>
+    <ul class="collections__slider-list swiper-wrapper">
+        <li class="collections__slider-el swiper-slide">
+            <div class="collections__slider-poster">
+                <img class="collections__slider-img" src="./res/images/collections/collection1.jpg" alt="poster">
+            </div>
+            <div class="collections__slider-desc">
+                    <div class="collections__slider-artist">
+                        <img src="./res/images/collections/avatar.svg" alt="avatar"
+                             class="collections__slider-artist--img">
+                        <a href="#" class="collections__slider-artist--link subtext"> @wzard</a>
+                    </div>
+                    <span class="collections__slider-erc subtext">ERC-721</span>
+            </div>
+        </li>
+        <li class="collections__slider-el swiper-slide">
+            <div class="collections__slider-poster">
+                <img class="collections__slider-img" src="./res/images/collections/collection2.jpg" alt="poster">
+            </div>
+            <div class="collections__slider-desc">
+                <div class="collections__slider-artist">
+                    <img src="./res/images/collections/avatar.svg" alt="avatar"
+                         class="collections__slider-artist--img">
+                    <a href="#" class="collections__slider-artist--link subtext"> @wzard</a>
+                </div>
+                <span class="collections__slider-erc subtext">ERC-721</span>
+            </div>
+        </li>
+        <li class="collections__slider-el swiper-slide">
+            <div class="collections__slider-poster">
+                <img class="collections__slider-img" src="./res/images/collections/collection1.jpg" alt="poster">
+            </div>
+            <div class="collections__slider-desc">
+                <div class="collections__slider-artist">
+                    <img src="./res/images/collections/avatar.svg" alt="avatar"
+                         class="collections__slider-artist--img">
+                    <a href="#" class="collections__slider-artist--link subtext"> @wzard</a>
+                </div>
+                <span class="collections__slider-erc subtext">ERC-721</span>
+            </div>
+        </li>
+        <li class="collections__slider-el swiper-slide">
+            <div class="collections__slider-poster">
+                <img class="collections__slider-img" src="./res/images/collections/collection2.jpg" alt="poster">
+            </div>
+            <div class="collections__slider-desc">
+                <div class="collections__slider-artist">
+                    <img src="./res/images/collections/avatar.svg" alt="avatar"
+                         class="collections__slider-artist--img">
+                    <a href="#" class="collections__slider-artist--link subtext"> @wzard</a>
+                </div>
+                <span class="collections__slider-erc subtext">ERC-721</span>
+            </div>
+        </li>
+    </ul>
+</section>
+
+        <div class="view-all">
+            <a href="#" class="view-all__link">View All</a>
+        </div>
+    </div>
+</article>
+        <div class="creators _dark-back">
+    <div class="container creators__container">
+        <div class="title">
+  <div class="title__circle"></div>
+  <h2 class="title__text">Top creators</h2>
+</div>
+        <ul class="creators__list">
+            <li class="creators__item">
+                <div class="creators__prof">
+                    <div class="creators__avatar">
+                      <img src="./res/images/creators/pro1.svg" alt="pro" class="creators__avatar-img">
+                    </div>
+                    <div class="creators__info">
+                        <h4 class="creators__info-name">Wzard Dee</h4>
+                        <span class="creators__info-price subtext">4.89 ETH</span>
+                    </div>
+                </div>
+                <div class="creators__proj">
+                    <h4 class="creators__proj-count">33</h4>
+                    <span class="creators__proj-title subtext">Items</span>
+                </div>
+            </li>
+            <li class="creators__item">
+                <div class="creators__prof">
+                    <div class="creators__avatar">
+                        <img src="./res/images/creators/pro2.svg" alt="pro" class="creators__avatar-img">
+                    </div>
+                    <div class="creators__info">
+                        <h4 class="creators__info-name">Wzard Dee</h4>
+                        <span class="creators__info-price subtext">4.89 ETH</span>
+                    </div>
+                </div>
+                <div class="creators__proj">
+                    <h4 class="creators__proj-count">33</h4>
+                    <span class="creators__proj-title subtext">Items</span>
+                </div>
+            </li>
+            <li class="creators__item">
+                <div class="creators__prof">
+                    <div class="creators__avatar">
+                        <img src="./res/images/creators/pro3.svg" alt="pro" class="creators__avatar-img">
+                    </div>
+                    <div class="creators__info">
+                        <h4 class="creators__info-name">Wzard Dee</h4>
+                        <span class="creators__info-price subtext">4.89 ETH</span>
+                    </div>
+                </div>
+                <div class="creators__proj">
+                    <h4 class="creators__proj-count">33</h4>
+                    <span class="creators__proj-title subtext">Items</span>
+                </div>
+            </li>
+            <li class="creators__item">
+                <div class="creators__prof">
+                    <div class="creators__avatar">
+                        <img src="./res/images/creators/pro4.svg" alt="pro" class="creators__avatar-img">
+                    </div>
+                    <div class="creators__info">
+                        <h4 class="creators__info-name">Wzard Dee</h4>
+                        <span class="creators__info-price subtext">4.89 ETH</span>
+                    </div>
+                </div>
+                <div class="creators__proj">
+                    <h4 class="creators__proj-count">33</h4>
+                    <span class="creators__proj-title subtext">Items</span>
+                </div>
+            </li>
+        </ul>
+        <div class="view-all">
+            <a href="#" class="view-all__link">View All</a>
+        </div>
+    </div>
+</div>
+        <article class="subscribe _dark-back">
+  <section class="subscribe__container container">
+    <div class="subscribe__back">
+      <img src="./res/images/sub/sub-back.svg" alt="back" class="subscribe__back-img">
+    </div>
+    <div class="subscribe__title">
+      <h2 class="subscribe__title-text">Ready for Next NFT Drop?</h2>
+    </div>
+    <form  class="subscribe__form">
+      <label for="subscribe" class="subscribe__form-lb">
+        <input type="text" id="subscribe" class="subscribe__form-lb--in subtext" placeholder="info@mail.com">
+      </label>
+      <button class="subscribe__form-btn">Subscribe</button>
+    </form>
+  </section>
+</article>
+    </main>
+    <footer class="footer">
+    <div class="footer__container container">
+        <section class="footer__desc">
+            <div class="footer__desc-logo">
+                <a href="#" class="footer__desc-logo--ling">
+                    <picture>
+                        <source srcset="./res/images/logo_big_mob.svg" media="(max-width:769px)">
+                        <img src="./res/images/logo_big.svg" alt="logo" class="footer__desc-logo--img">
+                    </picture>
+                </a>
+            </div>
+            <div class="footer__desc-info">
+                <p class="footer__desc-info--text subtext">
+                    Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla pharetra gravida est.
+                </p>
+                <nav class="footer__social-media">
+                    <ul class="footer__social-media-list">
+                        <li class="footer__social-media-item">
+                            <a href="#" class="footer__social-media-link">
+                                <img src="./res/images/social-media/youtube.svg" alt="youtube" class="footer__social-media-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-media-item">
+                            <a href="#" class="footer__social-media-link">
+                                <img src="./res/images/social-media/twiter.svg" alt="twiter" class="footer__social-media-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-media-item">
+                            <a href="#" class="footer__social-media-link">
+                            <img src="./res/images/social-media/facebook.svg" alt="facebook" class="footer__social-media-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-media-item">
+                            <a href="#" class="footer__social-media-link">
+                                <img src="./res/images/social-media/google.svg" alt="google+" class="footer__social-media-img">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <span class="footer__desc-info--copyright subtext">
+                    All rights reserved@2021
+                </span>
+            </div>
+        </section>
+
+        <section class="footer__contact">
+            <nav class="footer__group">
+                <h4 class="footer__group-title">About Us</h4>
+                <ul class="footer__group-list">
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">About NFTs</a>
+                    </li>
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">NFT Blog</a>
+                    </li>
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">Live Auctions</a>
+                    </li>
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">Activity</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__group">
+                <h4 class="footer__group-title">Support</h4>
+                <ul class="footer__group-list">
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">Help & Support</a>
+                    </li>
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">Item Details</a>
+                    </li>
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">Author Profile</a>
+                    </li>
+                    <li class="footer__group-item">
+                        <a href="#" class="footer__group-link subtext">Collection</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230216165623"></script>
+<script src="./res/scripts/app.min.js?_v=20230216165623"></script>
+</body>
+</html>
